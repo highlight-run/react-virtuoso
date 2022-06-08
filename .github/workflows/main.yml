@@ -42,7 +42,7 @@ jobs:
           yarn lint
           yarn typecheck
           yarn test --ci
-          yarn e2e --ci
+          yarn e2e
 
       - name: Release
         env:
